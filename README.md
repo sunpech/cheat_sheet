@@ -44,3 +44,10 @@ SELECT setval('your_table_id_seq', COALESCE((SELECT MAX(id)+1 FROM your_table), 
 ```
 
 [Source](https://stackoverflow.com/questions/244243/how-to-reset-postgres-primary-key-sequence-when-it-falls-out-of-sync)
+
+## Find and replace in file on command line
+
+```
+sed -i "s/original/new/g" file.txt
+sed -i "s/\`/\'/g" file.txt
+```
