@@ -51,3 +51,9 @@ SELECT setval('your_table_id_seq', COALESCE((SELECT MAX(id)+1 FROM your_table), 
 sed -i "s/original/new/g" file.txt
 sed -i "s/\`/\'/g" file.txt
 ```
+
+## Check SHA1 checksum
+
+```
+shasum file.dmg | grep 4cbcea9764b6b657d2147645eeb5b973b642530e
+```
