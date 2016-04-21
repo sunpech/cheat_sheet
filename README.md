@@ -9,6 +9,7 @@ These are the not-so-common commands that I run every once in a while that I can
 * [How can I reconcile detached HEAD with master/origin?](https://stackoverflow.com/questions/5772192/how-can-i-reconcile-detached-head-with-master-origin)
 * [Git fetch remote branch](https://stackoverflow.com/questions/9537392/git-fetch-remote-branch)
 * [Clone all remote branches with Git](https://stackoverflow.com/questions/67699/clone-all-remote-branches-with-git)
+* [Delete a Git branch both locally and remotely](https://stackoverflow.com/questions/2003505/delete-a-git-branch-both-locally-and-remotely)
 
 ## Copy ssh public key to server
 
