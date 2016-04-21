@@ -18,6 +18,11 @@ These are the not-so-common commands that I run every once in a while that I can
 ssh-copy-id username@hostname
 ```
 
+Remove packages that were automatically installed to satisfy dependencies, and are no longer needed.
+```
+sudo apt-get autoremove
+```
+
 ### Mac
 ```
 cat ~/.ssh/id_rsa.pub | ssh user@machine "mkdir ~/.ssh; cat >> ~/.ssh/authorized_keys"
